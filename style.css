@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Kavoon';
+    src: url(Kavoon-Regular.ttf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'Kavoon';
+}
+h1 {
+    font-family: 'Kavoon';
+    color:#592C1C;
+}
+
+h2{
+    font-family: 'Kavoon';
+    color: #592C1C;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #F29F05;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header img {
+    height: 50px;
+    vertical-align: middle;
+}
+header h1 {
+    display: inline;
+    margin: 0;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+nav {
+    margin-top: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin-right: -1vw;
+    margin-left: -41vw;
+}
+
+
+nav ul li a {
+    /*
+    color: #592C1C;
+    text-decoration: none;
+    font-weight: bold;
+    */
+    width: 8vw;
+  height: 2vw;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  background: #F2B705;
+  border: none;
+  color: #592C1C;
+  margin-top: -1vw;
+  margin-left: 46vw;
+  margin-bottom: -2vh;
+  
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+nav ul li a:hover {
+    /*
+    transform: scale(1.1);
+    background-color: #482A5B;
+    color: #ffffc7;*/
+    transform: scale(1.1);
+    background-color: #482A5B;
+    color: #ffffc7;
+}
+
+section {
+    display: inline-block;
+}
+
+.teste {
+    background: #C9DFF2;
+    margin-bottom: 20vh;
+    width: 100vw;
+    height: 60vh;
+    border-radius: 50%;
+  }
+
+  .button {
+  width: 8vw;
+  height: 2vw;
+  font-family: 'Kavoon';
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  background: none;
+  border: none;
+  color: #592C1C;
+  margin-top: -1vw;
+  margin-left: 46vw;
+  margin-bottom: -2vh;
+  background: #F2B705;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .button:hover {
+    transform: scale(1.1);
+    background-color: #482A5B;
+    color: #ffffc7;
+  }
+
+  .texto-2 {
+    background: rgba(255, 255, 199, 0.7);
+    position: relative;
+    padding: 2vw;
+    height: 11vh;
+    top: -29vw;
+    display: none;
+   border-radius: 20%;
+  }
+
+  .texto {
+    font-size: 3vh;
+    margin-top: 0vw;
+  }
+
+  .fechar {
+    position: absolute;
+    font-size: 2.5vw;
+    top: 2vw;
+    right: 3vw;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  h2#oquee{
+    text-align: center;
+    margin-left: 41vw;
+    position: relative;
+  }
+
+.jogar{
+    width: 6vw;
+    height: 3vw;
+    position: absolute;
+    text-align: center;
+    top: 35vw;
+    border: none;
+    background: none;
+    margin-left: 46vw;
+    color: #592C1C;
+    background: #F29F05;
+    border-radius: 8px;
+    cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.jogar:hover {
+    transform: scale(1.1);
+    background-color: #482A5B;
+    color: #ffffc7;
+}
+
+  /*
+footer: Define a aparência geral do rodapé, incluindo cor de fundo e cor do texto.
+
+.footer-content: Centraliza o conteúdo do rodapé e define uma largura máxima.
+
+.section: Define seções distintas dentro do rodapé, cada uma contendo informações específicas (contato, navegação, redes sociais).
+
+.section h2: Define o estilo dos títulos das seções.
+
+.section ul: Remove os estilos padrão de lista e espaçamentos.
+
+.section ul li: Define o espaçamento entre itens da lista.
+
+.section ul li a: Define a aparência dos links dentro do rodapé, incluindo comportamento ao passar o mouse.
+
+.social-icons a: Estiliza os links das redes sociais.
+*/
+  footer {
+    background-color: #F29F05;
+    color: #592C1C;
+    padding: 20px 0;
+    text-align: center;
+    width: 100vw;
+    height: 10vw;
+    position: sticky;
+}
+footer .footer-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+footer .footer-content .section {
+    margin-bottom: 20px;
+}
+footer .footer-content .section h2 {
+    margin-top: 0;
+    color: #FFD700; /* Gold */
+}
+
+footer .naveg {
+    margin-top: 20px;
+}
+footer .naveg {
+    color: #592C1C;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer .naveg a:hover {
+    color: #482A5B;
+}
+footer .social-icons {
+    margin-top: 20px;
+}
+footer .social-icons a {
+    color: #592C1C;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer .social-icons a:hover {
+    color: #482A5B; 
+}
+
+p#email{
+margin-left: -10vw;
+}
+
+p#tel {
+    margin-right: -20vw;
+    margin-top: -2vw;
+}
+div#contato {
+margin-right: 70vw;
+}
+
+div#navegar{
+    margin-right: 9vw;
+    margin-top: -13vh;
+}
+
+div#midias {
+    margin-right: -65vw;
+    margin-top: -11vh;
+}

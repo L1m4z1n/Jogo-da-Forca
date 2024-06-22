@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/emoji-removebg-preview.png" alt="Logo">
+        <h1>Jogo da Forca</h1>
+        <nav>
+            <ul>
+                <li><a href="forca.html">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Jogo da Forca</h1>
+        <canvas id="hangmanCanvas" width="200" height="200"></canvas>
+        <div id="wordContainer"></div>
+        <div>
+            <input type="text" id="guessInput" maxlength="1">
+            <button onclick="makeGuess()">Enviar</button>
+        </div>
+        <p>Letras erradas: <span id="wrongLetters"></span></p>
+        <p>Tentativas restantes: <span id="remainingAttempts">6</span></p>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+   
+    <footer>
+        
+        <div class="footer-content">
+            <div class="section" id="contato">
+                <h2>Contato</h2>
+                <p id="email">Email: gabrielimalmeida@gmail.com</p>
+                <p id="tel">Telefone: (98) 8934-4471</p>
+            </div>
+            <div class="section" id="navegar">
+                <h2>Navegação</h2>
+                    <div class="naveg">
+                        <a href="forca.html">Home</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#contato">Contato</a>
+                    </div>
+            </div>
+            <div class="section" id="midias">
+                <h2>Siga-nos</h2>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gabriel-lima-19a305292/">Linkedin</a>
+                    <a href="https://github.com/L1m4z1n">GitHub</a>
+                    <a href="#instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
