@@ -1,4 +1,4 @@
-const words = ["python", "programacao", "computador", "jogo", "desenvolvimento"];
+const words = ["python", "programacao", "computador", "jogo", "desenvolvimento", "macaco", "brinquedo", "doutor", "princesa", "Brasil", "Estados Unidos"];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 let attemptsLeft = 6;
 let guessedLetters = [];
