@@ -29,7 +29,7 @@ O objetivo é digitar letras e tentar adivinhar a palavra oculta. A cada erro, u
 
 ---
 
-![Screenshot do jogo](imagens/demonstracao)
+![Screenshot do jogo](imagens/demonstracao.png)
 
 
 ## 🚀 Como executar localmente
